@@ -1,0 +1,25 @@
+html,body {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background: #f3b274;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position:absolute;
+    width:60%;
+    max-width:1100px;
+    height:80%;
+    max-height:750px;
+    background-color: white;
+    margin:auto;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius:20px;
+    box-shadow: 15px 15px 10px rgba(0,0,0, 0.507),-15px -15px 10px rgba(255,255,255,0.5);
+}
